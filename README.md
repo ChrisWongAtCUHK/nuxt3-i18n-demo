@@ -1,3 +1,5 @@
+[Getting Started](https://i18n.nuxtjs.org/docs/getting-started)
+
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.

@@ -1,5 +1,13 @@
+<script setup>
+const { setLocale } = useI18n()
+</script>
+
 <template>
   <div>
-    <h1>Home page</h1>
+    <div>
+      <button @click="setLocale('en')">en</button>
+      <button @click="setLocale('fr')">fr</button>
+      <p>{{ $t('welcome') }}</p>
+    </div>
   </div>
 </template>
