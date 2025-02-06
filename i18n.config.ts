@@ -1,12 +1,13 @@
+import { arabicPlurals } from "./i18n/plurals"
+import { numberFormats } from "./i18n/number-formats"
+import { datetimeFormats } from "./i18n/datetime-formats"
+
 export default defineI18nConfig(() => ({
   legacy: false,
-  locale: 'en',
-  messages: {
-    en: {
-      welcome: 'Welcome'
-    },
-    fr: {
-      welcome: 'Bienvenue'
-    }
-  }
+  fallbackLocale: "en-CA",
+  pluralRules: {
+    "ar-EG": arabicPlurals,
+  },
+  numberFormats,
+  datetimeFormats,
 }))
