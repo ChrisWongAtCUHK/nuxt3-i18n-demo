@@ -1,1 +1,0 @@
-import{J as r,t as a,x as n,K as o,y as u,v as i}from"./DLKy7Bha.js";const m={__name:"index",setup(p){const{setLocale:t}=r();return(s,e)=>(i(),a("div",null,[n("div",null,[n("button",{onClick:e[0]||(e[0]=l=>o(t)("en"))},"en"),n("button",{onClick:e[1]||(e[1]=l=>o(t)("fr"))},"fr"),n("p",null,u(s.$t("welcome")),1)])]))}};export{m as default};
