@@ -1,5 +1,6 @@
 - [Getting Started](https://i18n.nuxtjs.org/docs/getting-started)
 - [Nuxt.js 3.x 將靜態網站部署到 GitHub Pages](https://clairechang.tw/2023/10/03/nuxt3/nuxt-v3-static-site-generation/)
+- [The Complete Guide to Nuxt Localization](https://phrase.com/blog/posts/nuxt-js-tutorial-i18n/)
 
 # Nuxt Minimal Starter
 
